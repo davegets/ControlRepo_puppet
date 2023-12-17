@@ -1,0 +1,184 @@
+---
+# List of available Vagrant boxes with different OS to test on
+boxes:
+  almalinux9:
+    box: almalinux/9
+  almalinux8:
+    box: almalinux/8
+
+  alpine315:
+    box: generic/alpine315
+  alpine310:
+    box: generic/alpine310
+  alpine39:
+    box: generic/alpine39
+  alpine38:
+    box: generic/alpine38
+  alpine37:
+    box: generic/alpine37
+  alpine36:
+    box: generic/alpine36
+  alpine35:
+    box: generic/alpine3
+
+  archlinux:
+    box: generic/arch
+
+  amazon2:
+    box: gbailey/amzn2
+  amazon201703:
+    box: mvbcoding/awslinux
+
+  centos9stream:
+    box: centos/stream9
+  centos8stream:
+    box: centos/stream8
+  centos8:
+    box: generic/centos8
+  centos7:
+    box: centos/7
+  centos6:
+    box: centos/6
+
+  cumulus:
+    box: CumulusCommunity/cumulus-vx
+
+  debian11:
+    box: debian/bullseye64
+  debian10:
+    box: debian/buster64
+  debian9:
+    box: debian/stretch64
+  debian8:
+    box: debian/jessie64
+  debian7:
+    box: debian/wheezy64
+  devuan4:
+    box: generic/devuan4
+
+  fedora37:
+    box: generic/fedora37
+  fedora36:
+    box: generic/fedora36
+  fedora35:
+    box: generic/fedora35
+  fedora34:
+    box: generic/fedora34
+  fedora33:
+    box: generic/fedora33
+  fedora32:
+    box: generic/fedora32
+  fedora31:
+    box: generic/fedora31
+  fedora30:
+    box: generic/fedora30
+  fedora29:
+    box: generic/fedora29
+  fedora28:
+    box: generic/fedora28
+  fedora27:
+    box: generic/fedora27
+  fedora26:
+    box: generic/fedora26
+
+  freebsd13:
+    box: generic/freebsd13
+  freebsd12:
+    box: freebsd/FreeBSD-12.0-CURRENT
+  freebsd11:
+    box: freebsd/FreeBSD-11.1-STABLE
+  freebsd10:
+    box: freebsd/FreeBSD-10.4-STABLE
+
+  netbsd9:
+    box: generic/netbsd9
+  netbsd8:
+    box: generic/netbsd8
+
+  opensuse_tumbleweed:
+    box: opensuse/openSUSE-Tumbleweed-Vagrant.x86_64
+  opensuse42:
+    box: generic/opensuse42
+  opensuse15:
+    box: generic/opensuse15
+
+  oracle9:
+    box: generic/oracle9
+  oracle8:
+    box: generic/oracle8
+  oracle7:
+    box: generic/oracle7
+  oracle6:
+    box: generic/oracle6
+
+  osx1010:
+    box: dhoer/macosx-10.10
+  osx1011:
+    box: carbon/osx-elcapitan-10.11
+
+  rhel9:
+    box: generic/rhel9
+  rhel8:
+    box: generic/rhel8
+  rhel7:
+    box: generic/rhel7
+  rhel6:
+    box: generic/rhel6
+
+  rocky9:
+    box: generic/rocky9
+  rocky8:
+    box: generic/rocky8
+
+  solaris10:
+    box: tnarik/solaris10-minimal
+  solaris11:
+    box: ruby-concurrency/oracle-solaris-11
+    breed: solaris11
+
+# Image available for suse12 has issues. To setup correctly:
+# vagrant up suse12
+# vagrant provision suse12
+# vagrant reload suse12
+# vagrant provision suse12
+  suse15:
+    box: normation/sles-15-sp4-64
+  suse12:
+    box: normation/sles-12-04-64
+  suse11:
+    box: normation/sles-11-03-64
+
+  ubuntu2210:
+    box: ubuntu/kinetic64
+  ubuntu2204:
+    box: ubuntu/jammy64
+  ubuntu2110:
+    box: ubuntu/impish64
+  ubuntu2004:
+    box: ubuntu/focal64
+  ubuntu1910:
+    box: ubuntu/eoan64
+  ubuntu1804:
+    box: ubuntu/bionic64
+  ubuntu1604:
+    box: ubuntu/xenial64
+  ubuntu1404:
+    box: ubuntu/trusty64
+  ubuntu1204:
+    box: ubuntu/precise64
+
+  windows2022:
+    box: gusztavvargadr/windows-server-2022-standard 
+  windows2019:
+    box: gusztavvargadr/windows-server-2019-standard
+  windows2016:
+    box: mwrock/Windows2016
+  windows2012:
+    box: opentable/win-2012r2-standard-amd64-nocm
+  windows2008:
+    box: opentable/win-2008r2-standard-amd64-nocm
+    breed: win2016
+  windows11:
+    box: gusztavvargadr/windows-11
+  windows10:
+    box: gusztavvargadr/windows-10
