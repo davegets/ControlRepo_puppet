@@ -2,7 +2,7 @@
 
 <img align="right" src="html/images/PSICK-logo-200x200.png" />
 
-# PSICK
+# mmcy PSICK test
 ## Puppet Systems Infrastructure Construction Kit
 
 [![Build Status](https://travis-ci.org/example42/psick.png?branch=production)](https://travis-ci.org/example42/psick)
